@@ -23,4 +23,8 @@ urlpatterns = [
     path('Admin_login/', Admin_login_view, name='Admin_login'),
     path('Admin_register/', Admin_register, name='Admin_register'),
     path('Admin_home/', Admin_home, name='Admin_home'),
+    path('Option1/', Option1, name='Option1'),
+    path('Option2/', Option2, name='Option2'),
+    path('Option3/', Option3, name='Option3'),
+    path('Option4/', Option4, name='Option4'),
 ]

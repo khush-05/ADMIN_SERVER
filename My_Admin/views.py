@@ -38,3 +38,18 @@ def Admin_login_view(request):
 
 def Admin_home(request):
     return render(request , 'Admin_home.html')  
+
+def Option1(request):
+    return render(request , 'Option1.html')
+
+def Option2(request):
+    return render(request , 'Option2.html')
+
+def Option3(request):
+    return render(request , 'Option3.html')
+
+def Option4(request):
+    return render(request , 'Option4.html')
+
+
+
